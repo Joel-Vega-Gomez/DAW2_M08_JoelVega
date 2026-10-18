@@ -1,2 +1,7 @@
 # Archivos a ignoarar por git
 para_ignorar
+
+.DS_Store
+.vscode/ 
+*.log 
+secreto.txt
