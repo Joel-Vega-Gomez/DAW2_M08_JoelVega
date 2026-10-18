@@ -27,4 +27,9 @@ git log --oneline
 git show 
 # Muestra los detalles del ultimo commit.
 <commit> 
-# Muestra los detalles de ese commit en particular.
+# Muestra los detalles de ese commit en particular, mediante el hash del commit.
+git restore --staged <file> 
+# Permite sacar el archivo de staging.
+git restore <file>
+# Permite restaurar la ultima version del archivo confirmada (desde staging).
+
