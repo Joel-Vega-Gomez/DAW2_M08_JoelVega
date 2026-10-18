@@ -47,3 +47,10 @@ git rm <file>
 
 git mv <path/file>
 # Permite mover o renombrar, es el de linux pero stagea los cambios directamente.
+
+.gitignore 
+# Sirve para que git ignore el staging y commit de ciertos archivos o carpetas.
+#
+# Para carpetas hay que escribir dentro del archivo "nombre_de_la_carpeta/".
+# Para archivos "nombre_del_archivo.md".
+# Para extensiones "*.bat".
