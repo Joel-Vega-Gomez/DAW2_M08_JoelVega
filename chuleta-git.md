@@ -26,3 +26,5 @@ git log --oneline
 
 git show 
 # Muestra los detalles del ultimo commit.
+<commit> 
+# Muestra los detalles de ese commit en particular.
