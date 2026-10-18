@@ -33,3 +33,5 @@ git restore --staged <file>
 git restore <file>
 # Permite restaurar la ultima version del archivo confirmada (desde staging).
 
+git restore --source <commit_HASH> chuleta-git.md
+# Permite restaurar la version de un archivo de un commit anterior.
