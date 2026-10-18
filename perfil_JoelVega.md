@@ -2,11 +2,11 @@
 
 # Joel Vega Gómez
 
-### Tecnic informátic
+### Tecnic informátic.
 
-### Desenvolupador full stack (Objectiu)
+### Desenvolupador full stack (Objectiu).
 
-### Comercial d'IT (2n Objectiu)
+### Comercial d'IT (2n Objectiu).
 
 <br><br>
 
