@@ -28,10 +28,15 @@ git show
 # Muestra los detalles del ultimo commit.
 <commit> 
 # Muestra los detalles de ese commit en particular, mediante el hash del commit.
+
 git restore --staged <file> 
 # Permite sacar el archivo de staging.
 git restore <file>
 # Permite restaurar la ultima version del archivo confirmada (desde staging).
-
 git restore --source <commit_HASH> chuleta-git.md
 # Permite restaurar la version de un archivo de un commit anterior.
+#
+# Es muy sencillo, la diferencia es si estamos restaurando un archivo del workspace desde una version anterior o 
+# cargandonos uno que esta staged
+
+
