@@ -8,14 +8,18 @@ git reset <file>
 # Elimina el archivo de staging
 git reset <commit>
 # Elimina el comit pasado
-git diff
+git diff 
+--staged: Muestra los cambios pero no con respecto a staging sino con respecto a el repo, osea los que vas a comitear.
 # Muestra los cambios realizados en worksapce con respecto a staging.
 git diff HEAD
 # Muestra los cambios realizados tanto en worksapce como en staging con respecto al repo local.
 
 git status 
-# Muestra los archivos sin seguimiento en workspace respecto a staging.
-# Muestra los cambios realizados con respecto a staging.
+# Muestra los archivos:
+#	Modificados.
+#	Nuevos.
+#	Stageados (preparados para el proximo commit).
+#	Git no sigue (No termino de entender esto).
 
 git log --oneline 
 # Muestra un resumen del registro de commits.
