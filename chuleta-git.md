@@ -45,4 +45,5 @@ git rm <file>
 # (De normal borrariamos y hariamos "git add ." para que detecte el archivo borrado pero esto borra y confirma
 # para finalmente hacer comit y quede registrado el cambio en el repo).
 
-
+git mv <path/file>
+# Permite mover o renombrar, es el de linux pero stagea los cambios directamente.
