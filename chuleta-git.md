@@ -39,4 +39,10 @@ git restore --source <commit_HASH> chuleta-git.md
 # Es muy sencillo, la diferencia es si estamos restaurando un archivo del workspace desde una version anterior o 
 # cargandonos uno que esta staged
 
+git rm <file>
+# Permite eliminar un archivo del  proyecto
+# Este comando borra el archivo del workspace y mete el borrado en staging, es decir confirma el borrado directemante.
+# (De normal borrariamos y hariamos "git add ." para que detecte el archivo borrado pero esto borra y confirma
+# para finalmente hacer comit y quede registrado el cambio en el repo).
+
 
