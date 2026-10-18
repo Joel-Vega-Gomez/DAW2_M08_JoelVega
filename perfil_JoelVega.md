@@ -28,8 +28,10 @@ al nivell mes baix, tambe m'agrada el _hardware_ i participar en event tipus exp
 ### Tecnologies
 
 1. Git
-2. VPS (El he utlitzat per allotjar projectes).
+2. VPS (L'he utlitzat per allotjar projectes).
 3. Virtualització (Tambe per allotjar projectes i com a entorns SandBox).
+4. WebBuilders.
+5. Plesk.
 
 <br><br>
 
