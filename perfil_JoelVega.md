@@ -23,7 +23,6 @@ al nivell mes baix, tambe m'agrada el _hardware_ i participar en event tipus exp
 - Bash
 - Python
 - PHP
-- LaTeX
 
 ### Tecnologies
 
@@ -112,7 +111,10 @@ console.log("Y las que no");
 - [ ] Programar millor, a nivell de pulidesa.
 - ~~[ ] Dominar PHP~~
 - [ ] Dominar tots els llenguatges que conec (Nivell basic, com a minim).
-
+- [ ] Aprendre PowerBI.
+- [x] Crear les meves propies aplicacions en lloc d'usar les d'altres.
+- [ ] Aprendre estrategies comercials per poder vendre software.
+- [ ] Aprendre DAX (És de Microsoft pero el vull per a PowerBI).
 
 # Herramientas que estoy aprendiendo
 
