@@ -110,9 +110,9 @@ git remote -v
 git branch -M <name>
 # Permite renombrar la rama en la que se encuentra el usuario a <name>
 
-git push -u origin main
+git push -u origin <branch>
 # Permite subir los cambios al repositorio remoto.
-# Al usar "-u" le pedimos que configure el seguimiento del repo remoto. (Es decir que cuando hagmos push lo hara a esa rama).
+# Al usar "-u" le pedimos que configure el seguimiento del repo remoto. (Es decir que cuando hagmos push lo hara a esa <branch>).
 
 git clone <repo_url>
 # Permite descargar el repositorio y crear una carpeta con el nombre del mismo.
