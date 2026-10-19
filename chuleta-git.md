@@ -13,6 +13,8 @@ git diff
 # Muestra los cambios realizados en worksapce con respecto a staging.
 git diff HEAD
 # Muestra los cambios realizados tanto en worksapce como en staging con respecto al repo local.
+git diff <branch1> <branch2> <file>
+# Permite ver los cambios realizados en una rama con respecto a la otra en un mismo archivo.
 
 git status 
 # Muestra los archivos:
