@@ -122,3 +122,9 @@ git branch -a
 
 git log --oneline --decorate -5
 # Muestra los ultimos 5 commits e indica las ramas.
+
+git fetch origin
+# Permite descargar los cambios del repositorio remoto sin modificar los archivos locales.
+
+git log --oneline HEAD..origin/main
+# Permite ver los comits que estan en remoto pero no en local.
