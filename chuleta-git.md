@@ -101,4 +101,16 @@ git clone/pull
 # Permite descargar el proyecto al espacio de trabajo.
 
 
+git remote add origin <url_remote_repo>
+# Permite conectar el repo local a el de github.
+
+git remote -v
+# Permite ver la direccion URL del repositorio remoto (es decir donde apunta origin).
+
+git branch -M <name>
+# Permite renombrar la rama en la que se encuentra el usuario a <name>
+
+git push -u origin main
+# Permite subir los cambios al repositorio remoto.
+# Al usar "-u" le pedimos que configure el seguimiento del repo remoto. (Es decir que cuando hagmos push lo hara a esa rama).
 
