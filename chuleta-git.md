@@ -78,3 +78,9 @@ git merge <branch>
 
 git branch -d <branch>
 # Permite eliminar <branch>
+
+git merge --abort
+# Prmite detener el merge en curso, por si se necesita revisar/corregir algo.
+
+# Para eliminar el conflicto hay que editar el/los archivos y eliminar las marcas de conflicto
+# Luego hay que stagear esos archivos para finalmente hacer commit.
