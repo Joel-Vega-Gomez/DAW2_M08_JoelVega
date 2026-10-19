@@ -114,3 +114,11 @@ git push -u origin main
 # Permite subir los cambios al repositorio remoto.
 # Al usar "-u" le pedimos que configure el seguimiento del repo remoto. (Es decir que cuando hagmos push lo hara a esa rama).
 
+git clone <repo_url>
+# Permite descargar el repositorio y crear una carpeta con el nombre del mismo.
+
+git branch -a
+# Permite ver las ramas locales y remotas.
+
+git log --oneline --decorate -5
+# Muestra los ultimos 5 commits e indica las ramas.
