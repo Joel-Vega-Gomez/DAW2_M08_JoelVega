@@ -86,3 +86,19 @@ git merge --abort
 
 # Para eliminar el conflicto hay que editar el/los archivos y eliminar las marcas de conflicto
 # Luego hay que stagear esos archivos para finalmente hacer commit.
+
+###########################
+#   REMOTE REPOSITORY:
+###########################
+
+git push
+# Permite subir los cambios al repositorio remoto.
+
+git fetch
+# Permite descargar el repositorio remoto al local.
+
+git clone/pull
+# Permite descargar el proyecto al espacio de trabajo.
+
+
+
