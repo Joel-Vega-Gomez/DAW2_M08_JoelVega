@@ -54,3 +54,25 @@ git mv <path/file>
 # Para carpetas hay que escribir dentro del archivo "nombre_de_la_carpeta/".
 # Para archivos "nombre_del_archivo.md".
 # Para extensiones "*.bat".
+
+git branch 
+# Permite ver las ramas actuales y donde se esta situado
+
+git branch <branch>
+# Permite crear una rama sin ir a ella.
+
+git switch <branch>
+# Permite ir a la rama indicada
+
+git switch -c <branch>
+# Permite crear y moverse a la rama designada (opcion más comun).
+
+git log --oneline --graph --all
+# Permite ver donde se ramifico y mergeo el proyecto (se ejecuta antes y despues de merge para ver que ha ocurrido).
+
+git log rama1 rama2 <file>
+# Permite ver el hisotrial de cambios del <file> en cada rama.
+
+git merge <branch>
+# Permite fusionar <branch> a la rama en la que estamos actualmente.
+
