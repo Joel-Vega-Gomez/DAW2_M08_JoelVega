@@ -76,3 +76,5 @@ git log rama1 rama2 <file>
 git merge <branch>
 # Permite fusionar <branch> a la rama en la que estamos actualmente.
 
+git branch -d <branch>
+# Permite eliminar <branch>
