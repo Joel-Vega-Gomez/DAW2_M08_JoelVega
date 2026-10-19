@@ -75,3 +75,8 @@ Para mantener el portfolio vivo, actualiza la sección de trabajo cuando exista 
 - Sitio estático local: implementado.
 - Pruebas estáticas y de interacción: resultados registrados en `docs/validation.md`.
 - Repositorio remoto y GitHub Pages: pendientes de URL y publicación desde una cuenta GitHub.
+
+# Apartado extra para PRs
+
+Una PR o Pull Request es un recurso que proporciona github, sirve para poder presentar posibles cambios antes de su adicion a la rama principal es como 
+una sugerencia de posibles cambios. Para la rama principal de esta forma antes de hacer el merge se comprueba que todo el mundo este deacuerdo
